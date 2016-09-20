@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/09/2016, 3:27:38 PM
+    Author     : Nik Kyriakidis
+*/
+.parallax-window{
+    color:#fff;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Inconsolata', monospace;
+}
+h1{
+    font-size:60px;
+}
+.img-inline{
+    display:block;
+    text-align: center;
+    @media (min-width: $screen-md-min) {
+        margin-right:50px;
+    margin-bottom: 30px;
+    }
+}
+.text-italic{
+    font-style: italic;
+}
+.text-black{
+    color:#000;
+}
+.text-underline{
+    text-decoration: underline;
+}
