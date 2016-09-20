@@ -42,8 +42,10 @@ section {
 header{
     h1{
         color:#fff;
+    @media (min-width: $screen-md-min) {
         font-size: 80pt;
         line-height: 80px;
+    }
         small{
             color:#fff;
             font-size: 20px;
